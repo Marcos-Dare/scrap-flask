@@ -12,6 +12,8 @@ from collections import Counter
 banco = MeuBanco()
 
 app = Flask(__name__)
+application = app
+
 t = None
 job_timer = None
 
